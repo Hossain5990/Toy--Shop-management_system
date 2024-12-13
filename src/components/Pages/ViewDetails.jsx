@@ -23,7 +23,12 @@ const ViewDetails = () => {
                     <p className="border-b-4 py-2 border-sky-200">Seller : {sellerName}</p>
                     <p className="border-b-4 py-2 border-sky-200">Seller email: {sellerEmail}</p>
                     <p className="border-b-4 py-2">Description: {description}</p>
+
+                    <div className='pt-4'>
+                    <button className="btn btn-neutral">Buy Now</button>
+                    </div>
                 </div>
+               
             </div>
         </div>
 
